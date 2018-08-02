@@ -6,6 +6,6 @@ This code (for makefile and for python) is to take a LaTeX source file for my te
 
 This is easy using LaTeX because the following was defined in my dossier source:
 
-\newcomand\ifexternaldossier
+\newif\ifexternaldossier
 
 which allows for conditional content.
